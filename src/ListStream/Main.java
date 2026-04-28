@@ -58,8 +58,8 @@ public class Main {
 
         // --------- STATIC LIST OF 10 EMPLOYEES ---------
         List<Employee> employees = Arrays.asList(
-                new Employee(1, "Haappy", "IT", "Manager", "FULL-TIME", 30, 8, 120000, 4, 2),
-                new Employee(2, "Sad", "HR", "Executive", "PART-TIME", 26, 3, 60000, 5, 1),
+                new Employee(1, "h", "IT", "Manager", "FULL-TIME", 30, 8, 120000, 4, 2),
+                new Employee(2, "s", "HR", "Executive", "PART-TIME", 26, 3, 60000, 5, 1),
                 new Employee(3, "Yaseen", "IT", "Manager", "FULL-TIME", 35, 10, 150000, 3, 1),
                 new Employee(4, "Sneha", "Finance", "Manager", "FULL-TIME", 40, 12, 90000, 4, 4),
                 new Employee(5, "Rahul", "IT", "Developer", "PART-TIME", 25, 2, 770000, 5, 1),
