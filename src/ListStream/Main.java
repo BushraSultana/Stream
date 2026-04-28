@@ -121,5 +121,6 @@ public class Main {
         System.out.println("\n============Task 3 :===============");
         System.out.println("\nTask 3 Salary Sum: " + salarySum);
         System.out.println("Task 3 Average Age: " + avgAge);
+        /// ////////////changes done
     }
 }
