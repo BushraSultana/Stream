@@ -58,7 +58,7 @@ public class Main {
 
         // --------- STATIC LIST OF 10 EMPLOYEES ---------
         List<Employee> employees = Arrays.asList(
-                new Employee(1, "patil", "IT", "Manager", "FULL-TIME", 30, 8, 120000, 4, 2),
+                new Employee(1, "patil_pooja", "IT", "Manager", "FULL-TIME", 30, 8, 120000, 4, 2),
                 new Employee(2, "b", "HR", "Executive", "PART-TIME", 26, 3, 60000, 5, 1),
                 new Employee(3, "c", "IT", "Manager", "FULL-TIME", 35, 10, 150000, 3, 1),
                 new Employee(4, "d", "Finance", "Manager", "FULL-TIME", 40, 12, 90000, 4, 4),
