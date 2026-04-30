@@ -58,13 +58,23 @@ public class Main {
 
         // --------- STATIC LIST OF 10 EMPLOYEES ---------
         List<Employee> employees = Arrays.asList(
+<<<<<<< HEAD
                 new Employee(1, "t", "IT", "Manager", "FULL-TIME", 30, 8, 120000, 4, 2),
-                new Employee(2, "e", "HR", "Executive", "PART-TIME", 26, 3, 60000, 5, 1),
-                new Employee(3, "k", "IT", "Manager", "FULL-TIME", 35, 10, 150000, 3, 1),
+                new Employee(2, "y", "HR", "Executive", "PART-TIME", 26, 3, 60000, 5, 1),
+                new Employee(3, "s", "IT", "Manager", "FULL-TIME", 35, 10, 150000, 3, 1),
                 new Employee(4, "p", "Finance", "Manager", "FULL-TIME", 40, 12, 90000, 4, 4),
                 new Employee(5, "y", "IT", "Developer", "PART-TIME", 25, 2, 770000, 5, 1),
                 new Employee(6, "r", "Sales", "Manager", "PART-TIME", 38, 11, 160000, 2, 3),
                 new Employee(7, "a", "IT", "Manager", "FULL-TIME", 32, 6, 130000, 5, 2),
+=======
+                new Employee(1, "bushra", "IT", "Manager", "FULL-TIME", 30, 8, 120000, 4, 2),
+                new Employee(2, "b", "HR", "Executive", "PART-TIME", 26, 3, 60000, 5, 1),
+                new Employee(3, "c", "IT", "Manager", "FULL-TIME", 35, 10, 150000, 3, 1),
+                new Employee(4, "d", "Finance", "Manager", "FULL-TIME", 40, 12, 90000, 4, 4),
+                new Employee(5, "e", "IT", "Developer", "PART-TIME", 25, 2, 770000, 5, 1),
+                new Employee(6, "f", "Sales", "Manager", "PART-TIME", 38, 11, 160000, 2, 3),
+                new Employee(7, "V", "IT", "Manager", "FULL-TIME", 32, 6, 130000, 5, 2),
+>>>>>>> 3e5873c853cec99444d2748b0887f6b393757c20
                 new Employee(8, "Meena", "HR", "Manager", "FULL-TIME", 45, 15, 140000, 1, 5),
                 new Employee(9, "Deepak", "Finance", "Analyst", "FULL-TIME", 29, 4, 75000, 4, 2),
                 new Employee(10, "Suman", "IT", "Manager", "FULL-TIME", 28, 5, 105000, 3, 1)
