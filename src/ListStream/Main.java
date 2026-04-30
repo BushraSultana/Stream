@@ -39,16 +39,16 @@ class Employee {
     }
 
     // Getters
-    public int getId() { return id; }
+    public Integer getId() { return id; }
     public String getName() { return name; }
     public String getDepartment() { return department; }
     public String getJobTitle() { return jobTitle; }
     public String getType() { return type; }
-    public int getAge() { return age; }
+    public Integer getAge() { return age; }
     public double getSalary() { return salary; }
-    public int getYearsSinceJoining() { return yearsSinceJoining; }
-    public int getYearsOfExperience() { return yearsOfExperience; }
-    public int getPerformanceRating() { return performanceRating; }
+    public Integer getYearsSinceJoining() { return yearsSinceJoining; }
+    public Integer  getYearsOfExperience() { return yearsOfExperience; }
+    public Integer getPerformanceRating() { return performanceRating; }
 }
 
 
@@ -58,6 +58,15 @@ public class Main {
 
         // --------- STATIC LIST OF 10 EMPLOYEES ---------
         List<Employee> employees = Arrays.asList(
+                new Employee(1, "t", "IT", "Manager", "FULL-TIME", 30, 8, 120000, 4, 2),
+                new Employee(2, "y", "HR", "Executive", "PART-TIME", 26, 3, 60000, 5, 1),
+                new Employee(3, "s", "IT", "Manager", "FULL-TIME", 35, 10, 150000, 3, 1),
+                new Employee(4, "s", "Finance", "Manager", "FULL-TIME", 40, 12, 90000, 4, 4),
+                new Employee(5, "t", "IT", "Developer", "PART-TIME", 25, 2, 770000, 5, 1),
+                new Employee(6, "y", "Sales", "Manager", "PART-TIME", 38, 11, 160000, 2, 3),
+                new Employee(7, "s", "IT", "Manager", "FULL-TIME", 32, 6, 130000, 5, 2),
+
+                new Employee(1, "bushra", "IT", "Manager", "FULL-TIME", 30, 8, 120000, 4, 2),
                 new Employee(1, "pooja", "IT", "Manager", "FULL-TIME", 30, 8, 120000, 4, 2),
                 new Employee(2, "b", "HR", "Executive", "PART-TIME", 26, 3, 60000, 5, 1),
                 new Employee(3, "c", "IT", "Manager", "FULL-TIME", 35, 10, 150000, 3, 1),
